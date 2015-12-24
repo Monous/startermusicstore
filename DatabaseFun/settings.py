@@ -20,12 +20,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Practice DB',
-        'USER': 'bd75be14e47906',
-        'PASSWORD': '209f3764',
-        'HOST': 'br-cdbr-azure-south-a.cloudapp.net',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '',
+        'USER': 'bgsonrjabxwhbw',
+        'PASSWORD': 'Dd0O9-zvbMFBDesF9EuUvz81_c',
+        'HOST': 'ec2-107-22-197-152.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
