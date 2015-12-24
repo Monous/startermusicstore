@@ -22,7 +22,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgresql-animate-4837',
+        'NAME': 'startermusicstore-database',
         'USER': 'bgsonrjabxwhbw',
         'PASSWORD': 'Dd0O9-zvbMFBDesF9EuUvz81_c',
         'HOST': 'ec2-107-22-197-152.compute-1.amazonaws.com',
