@@ -3,6 +3,7 @@ Django settings for DatabaseFun project.
 """
 
 from os import path
+from psycopg2 import *
 PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 
 DEBUG = True
