@@ -22,7 +22,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgresql-animate-4837',
+        'NAME': 'd763gcgsodi1an',
         'USER': 'bgsonrjabxwhbw',
         'PASSWORD': 'Dd0O9-zvbMFBDesF9EuUvz81_c',
         'HOST': 'ec2-107-22-197-152.compute-1.amazonaws.com',
@@ -169,3 +169,8 @@ LOGGING = {
 
 # Specify the default test runner.
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
+
+
+#import dj_database_url
+
+#DATABASES['default'] = dj_database_url.config()
