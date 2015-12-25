@@ -3,7 +3,7 @@ Django settings for DatabaseFun project.
 """
 
 from os import path
-
+import psycopg2
 PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 
 DEBUG = True
@@ -11,6 +11,7 @@ TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = (
     'localhost',
+    'ec2-107-22-197-152.compute-1.amazonaws.com',
 )
 
 ADMINS = (
@@ -26,7 +27,7 @@ DATABASES = {
         'USER': 'bgsonrjabxwhbw',
         'PASSWORD': 'Dd0O9-zvbMFBDesF9EuUvz81_c',
         'HOST': 'ec2-107-22-197-152.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
@@ -171,6 +172,6 @@ LOGGING = {
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 
-import dj_database_url
+#import dj_database_url
 
-DATABASES['default'] = dj_database_url.config()
+#DATABASES['default'] = dj_database_url.config()
