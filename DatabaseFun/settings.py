@@ -3,7 +3,7 @@ Django settings for DatabaseFun project.
 """
 
 
-
+# Blah
 #from os import path
 #import psycopg2
 #import dj_database_url
